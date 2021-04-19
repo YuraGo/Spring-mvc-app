@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Hello, it is a calculator page!
+
+<a href="/goodbye">To goodbye page</a> or <a href="/exit"> Exit </a>
+or <a href="/hello?name=Bob&surname=bobovich"> with request </a>>
+
+<p> Your answer is = </p>
+<p th:text="${calc_answer}"/>
+
+</body>
+</html>
